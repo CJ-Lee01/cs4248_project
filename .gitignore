@@ -2,6 +2,7 @@
 *.json
 *.m2
 *.orig
+**/raw_data/**
 
 # entire wi+locness folder
 **/wi+locness/**
@@ -9,3 +10,6 @@
 # IDE files (PyCharm, Vscode, etc)
 .idea/
 .vscode/
+
+# idk what is this
+__pycache__/
