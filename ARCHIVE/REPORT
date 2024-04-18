@@ -1,0 +1,125 @@
+
+Preprocessors against logistic regression
+tf-idf baseline
+f1 score: [0.7736, 0.6769, 0.7482, 0.8441]
+For class 1
+Bottom 20:
+think: -3.2507	government: -3.1299	obama: -2.8051	video: -2.8037	police: -2.7433	people: -2.6308	trump: -2.5277	says: -2.3819	taiwan: -2.1602	post: -2.0553	support: -1.9813	did: -1.8778	health: -1.8408	hillary: -1.8312	com: -1.8203	china: -1.7780	claims: -1.7430	reports: -1.7256	obamas: -1.7254	country: -1.7041
+
+Top 20:
+ve: 2.1507	ll: 2.1737	noting: 2.2488	tips: 2.3484	time: 2.3668	resident: 2.3681	really: 2.4224	just: 2.5629	nation: 2.8580	announced: 2.8954	tuesday: 3.1794	reporters: 3.4991	press: 4.1148	adding: 4.1245	confirmed: 4.1883	reportedly: 4.7306	sources: 4.8872	added: 5.3288	monday: 6.9775	said: 7.3014
+
+For class 2
+Bottom 20:
+said: -7.4538	monday: -3.0202	tuesday: -2.1284	don: -2.1214	com: -1.9264	added: -1.8292	sources: -1.7591	percent: -1.7238	thursday: -1.7155	press: -1.6862	war: -1.5873	wednesday: -1.5536	adding: -1.5348	ve: -1.4917	friday: -1.4679	selfnews: -1.4550	articles: -1.2930	ll: -1.2816	local: -1.2216	article: -1.2184
+
+Top 20:
+michelle: 2.5526	liberals: 2.5790	told: 2.6416	recently: 2.6438	fox: 2.8138	support: 2.8809	muslim: 2.8871	commented: 2.9484	isis: 3.1176	breaking: 3.3786	recent: 3.4080	hillary: 3.5544	claims: 3.6173	obamas: 3.6200	according: 3.9525	trump: 4.6576	video: 5.1108	obama: 5.4220	reports: 5.8272	think: 9.4655
+
+For class 3
+Bottom 20:
+said: -8.5903	think: -3.4233	monday: -3.3100	tuesday: -2.8562	reporters: -2.8050	don: -2.6258	told: -2.5350	president: -2.4184	thursday: -2.1907	week: -2.1402	added: -2.0625	obama: -2.0587	wednesday: -2.0419	according: -2.0231	reportedly: -1.9879	taiwan: -1.8876	friday: -1.8210	old: -1.7124	ve: -1.7092	reports: -1.6987
+
+Top 20:
+tsa: 2.0899	bitcoin: 2.1428	writer: 2.2151	free: 2.2248	marijuana: 2.3616	government: 2.3634	truth: 2.4196	related: 2.4914	syria: 2.4971	nsa: 2.5153	linkwithin_text: 2.5504	police: 2.5929	dont: 2.6549	corbett: 2.7040	war: 2.9562	appeared: 3.0095	com: 3.0854	youtube: 3.4031	articles: 4.2357	article: 4.2639
+
+For class 4
+Bottom 20:
+just: -3.6616	reportedly: -3.0262	think: -2.7914	dont: -2.7763	americans: -2.6087	reports: -2.4029	sources: -2.2868	trump: -2.1427	article: -1.9178	video: -1.8993	thats: -1.8836	im: -1.8770	reporters: -1.8481	articles: -1.8035	america: -1.7965	obamas: -1.7517	press: -1.7145	confirmed: -1.7052	according: -1.5869	isis: -1.5683
+
+Top 20:
+points: 1.9923	nt: 2.0140	ministry: 2.0560	china: 2.1705	taipei: 2.2314	sunday: 2.2925	minister: 2.3459	won: 2.3635	saturday: 2.4841	says: 2.5081	washington: 2.5463	cup: 2.6335	2009: 2.8514	friday: 2.9724	wednesday: 2.9753	don: 3.1047	thursday: 3.3099	percent: 3.6810	taiwan: 4.8853	said: 8.7426
+
+
+SVM
+
+Preprocessors against logistic regression
+tf-idf baseline
+f1 score: [0.7759, 0.6769, 0.7465, 0.8464]
+
+Preprocessors against logistic regression
+tf-idf baseline
+f1 score: [0.7725, 0.6754, 0.7467, 0.8428]
+
+SVM
+
+Preprocessors against logistic regression
+tf-idf baseline
+f1 score: [0.7739, 0.6779, 0.7473, 0.8455]
+
+SVM
+
+RELIABLE COVID NEWS: [93, 19, 663, 118]
+
+[3 3 1 4 3 1 4 1 3 4 1 1 3 3 3 3 3 3 3] > FAKE NEWS DATASET
+
+Statement on the fourth meeting of the International Health Regulations (2005) Emergency Committee regarding the outbreak of coronavirus disease (COVID-19) fourth meeting of emergency committee convened by who director general under international health regulations ihr 2005 regarding coronavirus disease covid-19 took place on friday 31 july 2020 from 12:00 to 17:45 geneva time cest. members and advisors of emergency committee were convened by videoconference. director general welcomed committee highlighted advances in global understanding of sars cov-2 virus since declaration of public h.
+PREDICTED AS 4
+[('committee', 0.2423), ('meeting', 0.2278), ('general', 0.2082), ('friday', 0.2062), ('international', 0.1448), ('director', 0.1423),
+('2005', 0.1397), ('fourth', 0.1242), ('health', 0.114), ('disease', 0.108), ('july', 0.1042), ('19', 0.0796), ('statement', 0.0749),
+('31', 0.0707), ('00', 0.0589), ('covid (UNK)', 0.0589), ('ihr (UNK)', 0.0589), ('12', 0.0559), ('regulations', 0.0492), ('welcomed', 0.0393),
+('17', 0.0267), ('geneva', 0.0241), ('convened', 0.0212), ('45', 0.0192), ('2020', 0.0188), ('declaration', 0.0112), ('highlighted', 0.0092),
+('took', 0.0085), ('videoconference', 0.0055), ('virus', 0.0035), ('advances', 0.0026), ('public', 0.0004), ('cest', -0.0001), ('cov', -0.0005),
+('outbreak', -0.0025), ('members', -0.0031), ('understanding', -0.0069), ('place', -0.0077), ('coronavirus', -0.0127), ('advisors', -0.0148),
+('sars', -0.0163), ('global', -0.0239), ('time', -0.0513), ('emergency', -0.0812), ('regarding', -0.0871)]
+
+
+Staying 6 Feet Apart Often Isn’t Enough During COVID-19 Pandemic researchers say people ca nt just rely on staying six feet apart to stop spread of covid-19. getty images to reduce your risk of contracting covid-19 public health experts recommend staying 6 feet away from people outside your bubble but experts say that is nt always enough. 6-foot rule dates back to late 1800s when german scientist found that pathogens were present in large droplets expelled from nose and mouth. however wind and weather can affect how droplets trav.
+PREDICTED AS 4
+[('nt', 0.4396), ('19', 0.1289), ('german', 0.0859), ('people', 0.0803), ('isn', 0.0744), ('late', 0.0724), ('risk', 0.0608),
+('health', 0.0607), ('wind', 0.0455), ('pandemic', 0.0445), ('feet', 0.0352), ('images', 0.0273), ('say', 0.0234), ('droplets', 0.0231),
+('experts', 0.022), ('weather', 0.0218), ('staying', 0.019), ('large', 0.0174), ('reduce', 0.0168), ('dates', 0.013), ('expelled', 0.013),
+('affect', 0.0121), ('trav', 0.0093), ('pathogens', 0.0053), ('outside', 0.0036), ('spread', 0.0024), ('public', 0.0012), ('covid (UNK)', 0.0),
+('getty', -0.0004), ('present', -0.0011), ('researchers', -0.0027), ('scientist', -0.0034), ('nose', -0.0044), ('rely', -0.0054),
+('1800s', -0.0056), ('recommend', -0.0062), ('apart', -0.0143), ('foot', -0.0148), ('rule', -0.0158), ('away', -0.0178),
+('mouth', -0.0179), ('contracting', -0.018), ('bubble', -0.0306), ('stop', -0.0363), ('ca', -0.0664), ('just', -0.1447)]
+
+
+Vaccine misinformation can be dispelled by conversation health professionals consider vaccines to be one of great achievements of modern medicine. even so skepticism over their value and safety has always existed dating back to smallpox vaccines of 1800s. today many people still oppose vaccines while anti vaccine misinformation proliferates online. however new study finds effect of online anti vaccine misinformation minimizes in people who talk about vaccines with friends and family. study looks at anti vaccination senti.
+PREDICTED AS 3
+4 [('online', 0.0957), ('people', 0.0815), ('health', 0.0609), ('safety', 0.0445), ('achievements', 0.0403), ('modern', 0.0392),
+('effect', 0.0367), ('finds', 0.0239), ('value', 0.0207), ('consider', 0.0184), ('medicine', 0.0158), ('talk', 0.0125), ('new', 0.0066),
+('professionals', 0.0036), ('dispelled', 0.0008), ('senti (UNK)', 0.0), ('proliferates', -0.0006), ('skepticism', -0.0018), ('anti', -0.0021),
+ ('minimizes', -0.0047), ('oppose', -0.0048), ('1800s', -0.0057), ('smallpox', -0.006), ('existed', -0.0073), ('family', -0.0078),
+ ('conversation', -0.0082), ('study', -0.0117), ('misinformation', -0.0173), ('looks', -0.0187), ('vaccination', -0.0218), ('dating', -0.0278),
+ ('great', -0.0338), ('vaccine', -0.048), ('friends', -0.057), ('today', -0.0659), ('vaccines', -0.2155)]
+
+3 [('vaccines', 0.6383), ('vaccine', 0.6079), ('anti', 0.2306), ('people', 0.1441), ('health', 0.1387), ('study', 0.0706),
+('vaccination', 0.0617), ('consider', 0.0527), ('online', 0.0419), ('misinformation', 0.0415), ('medicine', 0.0398),
+('effect', 0.0378), ('today', 0.0338), ('value', 0.0309), ('oppose', 0.0237), ('modern', 0.0165), ('talk', 0.0127), ('existed', 0.0116),
+('1800s', 0.0087), ('smallpox', 0.0085), ('safety', 0.0082), ('finds', 0.0079), ('professionals', 0.0079), ('minimizes', 0.0053),
+('skepticism', 0.0038), ('proliferates', 0.001), ('senti (UNK)', 0.0), ('dispelled', -0.0006), ('looks', -0.0097), ('conversation', -0.0168),
+('achievements', -0.0195), ('new', -0.0276), ('dating', -0.0298), ('great', -0.0308), ('family', -0.0509), ('friends', -0.0585)]
+
+
+How to Create Your ‘Social Bubble’ and Interact Safely This Summer social bubbles offer opportunity to socialize in close proximity with small group of people. keeping your social bubble to 10 or fewer can help reduce exposure to covid-19. outdoor activities are great way to engage with your social bubble. all data and statistics are based on publicly available data at time of publication. some information may be out of date. visit our coronavirus hub and follow our live updates page for most recent information on covid-19 outbreak.
+PREDICTED AS 3
+4 [('10', 0.1038), ('19', 0.1031), ('group', 0.0906), ('based', 0.0703), ('summer', 0.0564), ('offer', 0.054), ('fewer', 0.0504),
+('people', 0.0476), ('date', 0.0408), ('help', 0.0314), ('small', 0.0312), ('create', 0.0274), ('close', 0.0245), ('visit', 0.0235),
+('statistics', 0.0223), ('reduce', 0.0204), ('hub', 0.0182), ('bubbles', 0.0177), ('opportunity', 0.0159), ('socialize', 0.0094),
+('interact', 0.0057), ('activities', 0.0056), ('covid (UNK)', 0.0), ('available', -0.0023), ('keeping', -0.0024), ('outbreak', -0.0034),
+('way', -0.0035), ('publication', -0.0072), ('coronavirus', -0.0081), ('publicly', -0.0085), ('engage', -0.0097), ('proximity', -0.0118),
+('safely', -0.0154), ('updates', -0.0166), ('outdoor', -0.0302), ('great', -0.0398), ('live', -0.044), ('follow', -0.0457),
+('information', -0.0527), ('exposure', -0.0541), ('page', -0.0557), ('time', -0.0653), ('recent', -0.083), ('bubble', -0.1117),
+('social', -0.1121), ('data', -0.1287)]
+
+3 [('bubble', 0.2522), ('data', 0.2417), ('information', 0.2225), ('follow', 0.1309), ('people', 0.0837), ('page', 0.0772),
+('exposure', 0.0746), ('available', 0.0674), ('create', 0.0644), ('outbreak', 0.054), ('visit', 0.0425), ('live', 0.0424),
+('help', 0.0356), ('based', 0.0309), ('keeping', 0.0186), ('activities', 0.0182), ('coronavirus', 0.0138), ('way', 0.0089),
+('hub', 0.0079), ('publication', 0.0046), ('safely', 0.0036), ('updates', 0.0021), ('statistics', 0.0019), ('interact', 0.0008),
+('covid (UNK)', 0.0), ('proximity', -0.0005), ('small', -0.0015), ('bubbles', -0.0051), ('publicly', -0.0055), ('socialize', -0.0087),
+('engage', -0.0104), ('reduce', -0.0109), ('date', -0.011), ('fewer', -0.0134), ('outdoor', -0.0186), ('opportunity', -0.0189),
+('offer', -0.0288), ('social', -0.0293), ('great', -0.0356), ('19', -0.036), ('close', -0.0373), ('10', -0.0394), ('time', -0.0468),
+('summer', -0.0653), ('recent', -0.0775), ('group', -0.1028)]
+
+Preprocessors against logistic regression
+
+Preprocessors against logistic regression
+
+Preprocessors against logistic regression
+
+SVM
+
+Preprocessors against logistic regression
+
+SVM

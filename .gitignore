@@ -13,3 +13,9 @@
 
 # idk what is this
 __pycache__/
+
+# more data
+*.csv
+*.txt
+*.png
+*.xlsx

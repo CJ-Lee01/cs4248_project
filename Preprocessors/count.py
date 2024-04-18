@@ -14,3 +14,6 @@ class CountPreprocessor(IPreprocessor):
 
     def transform(self, data: np.ndarray):
         return self.vectorizer.transform(data)
+
+    def __name__(self):
+        return 'CountVectorizer'
