@@ -1,0 +1,1 @@
+start /wait python3 lstm.py -n HIGH_HIDDEN -HID 32 >> PROGRAM_REPORT
